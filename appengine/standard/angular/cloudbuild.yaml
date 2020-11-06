@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['./test.sh']
+  dir: '/home/loluru1234_1234/gcp-testing/appengine/standard/angular'
+  timeout: 1000s
+  entrypoint: 'bash'
