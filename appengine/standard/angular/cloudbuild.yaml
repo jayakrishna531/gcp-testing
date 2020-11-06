@@ -2,7 +2,6 @@ steps:
 #First clone the code from Git Repo
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/jayakrishna531/gcp-testing.git']
-#Second run the appengine deployment
  - name: 'gcr.io/cloud-builders/gcloud'
     dir: '/home/loluru1234_1234/gcp-testing/appengine/standard/angular'
    entrypoint: bash
