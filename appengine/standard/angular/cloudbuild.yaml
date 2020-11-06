@@ -1,10 +1,10 @@
 steps:
 #First clone the code from Git Repo
- -id: 'GetCode' 
-  name: 'gcr.io/cloud-builders/git'
+  -name: 'gcr.io/cloud-builders/git'
   dir: '/home/loluru1234_1234/'
   args: ['clone','https://github.com/jayakrishna531/gcp-testing.git']
  -id: 'Run The Script'
+  entrypoint: 'sh'
   name: 'gcr.io/cloud-builders/gcloud'
   dir: '/home/loluru1234_1234/gcp-testing/appengine/standard/angular'
   args: ["./test.sh"]
