@@ -3,6 +3,5 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','https://github.com/jayakrishna531/gcp-testing.git']
   dir: '/home/loluru1234_1234/gcp-testing/appengine/standard/angular'
-  ENTRYPOINT: [ "/bin/bash", "-l", "-c" ]
-  args: ['bash', './test.sh']
+  args: ["/bin/bash", "-l", "-c", "./test.sh"]
   
