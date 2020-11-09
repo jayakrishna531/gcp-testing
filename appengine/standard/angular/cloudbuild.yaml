@@ -1,5 +1,9 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   id: deploy
-  args: 'gcloud app deploy app.yaml'
+  args: 
+   - app
+   - deploy
+   - 'app.yaml'
+  entrypoint: gcloud
   
