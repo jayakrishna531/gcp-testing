@@ -1,6 +1,5 @@
- steps:
  #First clone the code from Git Repo
- - name: 'gcr.io/cloud-builders/git'
-    dir: '/home/loluru1234_1234/'
-   args: ['clone','https://github.com/jayakrishna531/gcp-testing.git']
-   
+  steps:
+ -name: 'jayakrishna531/gcp-testing/git'
+  args: ['clone','https://github.com/jayakrishna531/gcp-testing.git']
+  
