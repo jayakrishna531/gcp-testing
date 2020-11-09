@@ -1,7 +1,9 @@
 steps:
 - name: 'gcr.io/cloud-builders/git'
+  id: clone
   dir: '/home/loluru1234_1234/'
   args: ['clone','https://github.com/jayakrishna531/gcp-testing.git']
+  
   - name: 'gcr.io/cloud-builders/gcloud'
     id: deploy
     args: 'gcloud app deploy app.yaml'
