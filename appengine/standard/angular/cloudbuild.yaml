@@ -2,7 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/git'
   dir: '/home/loluru1234_1234/'
   args: ['clone','https://github.com/jayakrishna531/gcp-testing.git']
-  - name: 'gcr.io/cloud-builders/gcloud'
+  - name: 'gcr.io/cloud-builders/git'
    entrypoint: bash
    args: ['./test.sh']
    
