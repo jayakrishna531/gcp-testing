@@ -4,6 +4,6 @@ steps:
   args: 
    - app
    - deploy
-   - 'app.yaml'
+   - 'appengine/standard/angular/app.yaml'
   entrypoint: gcloud
   
