@@ -1,5 +1,5 @@
  #First clone the code from Git Repo
   steps:
- -name: 'jayakrishna531/gcp-testing/git'
+ -name: 'github.com/jayakrishna531/gcp-testing/git'
   args: ['clone','https://github.com/jayakrishna531/gcp-testing.git']
   
