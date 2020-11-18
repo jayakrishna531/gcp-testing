@@ -1,6 +1,7 @@
 runtime: python27
 threadsafe: true
 api_version: 1
+service: gcpexp_test
 
 handlers:
 - url: /rest/.*
